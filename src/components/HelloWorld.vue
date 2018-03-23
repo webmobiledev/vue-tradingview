@@ -1,3 +1,4 @@
+/* eslint-disable */
 <template>
   <div class="hello">
     <div id="chart_container" class="f-fill" style="height:800px;"></div>
@@ -189,64 +190,10 @@
 
 
 
-                // this_vue.chart.onChartReady(function() {
-                //     this_vue.chart.chart().executeActionById("drawingToolbarAction");
-                //     console.log("SAVE/LOAD :: Data from localstorage in onReady:",window.localStorage.getItem("chart_settings"));
-
-
-                //     this_vue.chart.createButton()
-                //         .on('click', function (e) {
-                //             this_vue.chart.chart().executeActionById("drawingToolbarAction");
-                //         })
-                //         .append($('<span>Tools</span>'));
-
-                //     this_vue.chart.createButton()
-                //         .on('click', function (e) {
-                //             this_vue.chart.save(function (e) {
-                //                 window.localStorage.setItem("chart_settings", JSON.stringify(e));
-                //                 console.log("SAVE/LOAD :: data saved to localstorage");
-                //             })
-                //         })
-                //         .append($('<span>Chart Save</span>'));
-
-                //     this_vue.chart.createButton()
-                //         .on('click', function (e) {
-                //             console.log("SAVE/LOAD :: data from localstorage:",JSON.parse(window.localStorage.getItem("chart_settings")));
-                //             this_vue.chart.load(this_vue.saved_chart);
-                //             console.log("SAVE/LOAD :: data loaded");
-                //         })
-                //         .append($('<span>Chart Load</span>'));
-
-                //     this_vue.chart.createButton()
-                //         .on('click', function (e) {
-                //             window.localStorage.setItem("chart_settings","");
-                //             console.log("SAVE/LOAD :: wyjebalem z local");
-                //         })
-                //         .append($('<span>Chart Reset</span>'));
-
-                //     this_vue.chart.createButton()
-                //         .on('click', function (e) {
-                //             this_vue.chart.chart().getAllStudies().forEach(function(element){
-
-                //                 if(element.name!="Volume")
-                //                     this_vue.chart.chart().removeEntity(element.id)
-                //             });
-                //         })
-                //         .append($('<span>Clear Indicators</span>'));
-
-                //     this_vue.chart.onGrayedObjectClicked(function(x) {
-                //         alert("You are not permitted to use " + x.name + "(" + x.type + ")");
-                //     });
-
-                //     this_vue.adjustChart();
-
-
-                // });
 
             });
 
 
-            //wywołanie metody
 
         },
         methods: {
