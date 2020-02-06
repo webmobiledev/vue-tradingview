@@ -76,7 +76,6 @@ export default class TradingViewComponent extends Vue {
             this.feed._fireEvent('pair_change');
             this.chart.activeChart().resetData();
             this.chart.activeChart().setSymbol(this.currency1+":"+this.currency2, () => {
-                console.log("GOWNO :: proba zmiany",this.currency1,this.currency2);
             });
         }
     }
@@ -410,7 +409,6 @@ export default class TradingViewComponent extends Vue {
         Datafeed.Container.prototype._logMessage = function(message:any) {
             if (this._enableLogging) {
                 var now = new Date();
-                console.log("CHART LOGS: "+now.toLocaleTimeString() + '.' + now.getMilliseconds() + '> ' + message);
             }
         };
 
