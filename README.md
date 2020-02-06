@@ -1,5 +1,9 @@
 # vue-tradingview
 
+## Demo
+https://vue-vuex-tradingview.firebaseapp.com/
+
+
 ## Project setup
 ```
 npm install
